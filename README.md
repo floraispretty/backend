@@ -334,3 +334,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Built with ❤️ for the Stellar ecosystem
+
+## Fix for Issue #194: No snapshot tests for API response schemas
+
+Add snapshot tests for all API response schemas to catch unintentional breaking changes. Schema drift has previously caused silent client breakage.
